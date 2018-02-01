@@ -37,5 +37,17 @@ namespace UdemyAula48
         Console.WriteLine();
         
         }
+        /// <summary>
+        /// Essa função mostra os filmes cadastrados, além das participações, artistas, e custos
+        /// </summary>
+        public static void mostrarFilme()
+        {
+            for (int i=0; i<Program.filmes.Count; i++)
+            {
+                Console.WriteLine(Program.filmes[i]);
+            }
+        Console.WriteLine();
+        
+        }
     }
 }

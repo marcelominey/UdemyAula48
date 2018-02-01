@@ -69,9 +69,7 @@ namespace UdemyAula48
                     Console.Write("insira o novo codigo do filme: ");
                     int CodigoFilme = int.Parse(Console.ReadLine());
 
-                    codigofilmes.Add(CodigoFilme);
-
-                    
+                    codigofilmes.Add(CodigoFilme);                    
 
                     Console.Write("insira o novo título do filme: ");
                     string Titulo = Console.ReadLine();
@@ -82,11 +80,7 @@ namespace UdemyAula48
 
                     Filme F = new Filme(CodigoFilme, Titulo, Ano);
 
-                    filmes.Add(F);
-
-
-
-
+                    
                     Console.Write("Quantos artistas participam do filme? ");
                     int quantidadeArtistas = int.Parse(Console.ReadLine());
 
@@ -108,9 +102,11 @@ namespace UdemyAula48
                         Console.Write("Informe o desconto no cachê: ");
                         double desconto = double.Parse(Console.ReadLine());
 
-                        Console.Write("Informe o cachê do artista: ");
-                        double CacheProvisorio = double.Parse(Console.ReadLine());
-                        
+                        Console.Write("Cachê do artista: ");
+                        //double CacheProvisorio = double.Parse(Console.ReadLine());
+                        double CacheProvisorio = artistas[pos].Cache;
+                        Console.Write(CacheProvisorio);
+
                         //Participacao part = new Participacao(Desconto, Program.artistas[pos], F);
                         //F.participacoes.Add(part);
                         
@@ -122,9 +118,12 @@ namespace UdemyAula48
                         Console.WriteLine("O custo da participação é R$" + X);
                         Console.WriteLine();
 
+                    F.Part.Add(I);
+
                         //totalPedido = totalPedido + X;
                         //itens.Add(i);
                     }
+                    filmes.Add(F);
 
                     //Console.WriteLine("O valor total do pedido eh R$ " + totalPedido);
 
@@ -133,7 +132,7 @@ namespace UdemyAula48
                 }
                 else if (opcao == 4)
                 {
-                    Tela.mostrarArtista();
+                    Tela.mostrarFilme();
 
                     
             /* int pedido;

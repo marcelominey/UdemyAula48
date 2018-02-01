@@ -669,15 +669,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\source\\repos\\UdemyAula48\\UdemyAula48.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\backend\\UdemyAula48\\UdemyAula48.csproj",
       "projectName": "UdemyAula48",
-      "projectPath": "C:\\Users\\marce\\source\\repos\\UdemyAula48\\UdemyAula48.csproj",
+      "projectPath": "C:\\Users\\marce\\backend\\UdemyAula48\\UdemyAula48.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marce\\source\\repos\\UdemyAula48\\obj\\",
+      "outputPath": "C:\\Users\\marce\\backend\\UdemyAula48\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -709,7 +706,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           }
         },

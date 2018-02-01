@@ -1,21 +1,21 @@
 
+using System.Collections.Generic;
+
 namespace dominio
-{   
+{
     public class Filme
     {
         public int CodigoFilme { get; set; }
         public string Titulo { get; set; }
         public int Ano { get; set; }
-        
+
         public List<Participacao> Part { get; set; }
-
-
 
         /// <summary>
         /// Sobrecarga do método FILME
         /// </summary>
-        public Filme(){}
-        
+        public Filme() { }
+
         /// <summary>
         /// Método que declara as variáveis que definem o FILME
         /// </summary>
@@ -35,30 +35,38 @@ namespace dominio
         /// </summary>
         /// <returns>retorna o custo total do filme</returns>
         //public double custoTotal(int participacoes, double custo){
-        public double custoTotal(){ 
+        public double custoTotal()
+        {
 
             double soma = 0;
 
-            for(int i = 0; Part.Count; i++){
+            for (int i = 0; i < Part.Count; i++)
+            {
                 soma = soma + Part[i].Custo();
             }
             return soma;
         }
-        
+
         /// <summary>
         /// Eu acho que transforma as 3 variáveis de entrada numa string única, pra caber em lista
         /// </summary>
         /// <returns>Retorna as 3 variáveis que definem FILME numa string única</returns>
         public override string ToString()
         {
-            return CodigoFilme 
-                + ", " 
-                + Titulo 
-                + ", ano: " 
-                + Ano.ToString("F2") 
-                + Part 
-                + " Custo total: " 
-                + custoTotal();
+            string s = CodigoFilme
+                + "; "
+                + Titulo
+                + "; Ano: "
+                + Ano.ToString()
+                + "; \n";
+            for (int i = 0; i < Part.Count; i++)
+            {
+                s = s + Part[i] + "\n";
+            }
+
+            s = s + "Custo total: " + custoTotal() + "\n";
+
+            return s;
         }
     }
 }

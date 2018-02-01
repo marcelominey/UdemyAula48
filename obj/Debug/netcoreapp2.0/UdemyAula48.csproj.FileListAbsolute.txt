@@ -9,3 +9,14 @@ c:\Users\marce\source\repos\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.Asse
 c:\Users\marce\source\repos\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.dll
 c:\Users\marce\source\repos\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.pdb
 C:\Users\marce\source\repos\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.csprojResolveAssemblyReference.cache
+C:\Users\marce\backend\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.csprojResolveAssemblyReference.cache
+C:\Users\marce\backend\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.csproj.CoreCompileInputs.cache
+C:\Users\marce\backend\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.AssemblyInfoInputs.cache
+C:\Users\marce\backend\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.AssemblyInfo.cs
+C:\Users\marce\backend\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.dll
+C:\Users\marce\backend\UdemyAula48\obj\Debug\netcoreapp2.0\UdemyAula48.pdb
+C:\Users\marce\backend\UdemyAula48\bin\Debug\netcoreapp2.0\UdemyAula48.deps.json
+C:\Users\marce\backend\UdemyAula48\bin\Debug\netcoreapp2.0\UdemyAula48.runtimeconfig.json
+C:\Users\marce\backend\UdemyAula48\bin\Debug\netcoreapp2.0\UdemyAula48.runtimeconfig.dev.json
+C:\Users\marce\backend\UdemyAula48\bin\Debug\netcoreapp2.0\UdemyAula48.dll
+C:\Users\marce\backend\UdemyAula48\bin\Debug\netcoreapp2.0\UdemyAula48.pdb
